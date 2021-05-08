@@ -29,3 +29,24 @@ dataSources = { 'Google': 1598,88,
                 
             
                 }
+
+
+
+currentPriceBoeing = 155,24
+currentPriceExxon = 32,82
+
+normalPriceBoeing = 300
+normalPriceExxon  = 70
+
+
+x1 = 1  #share should buy for Boeing
+
+x2 = 1  #share should buy for Boeing
+
+
+sumMoney = x1*currentPriceBoeing + x2 * currentPriceExxon 
+
+Profit = (normalPriceBoeing - currentPriceBoeing) * x1 + (normalPriceExxon - currentPriceExxon) * x2
+
+
+
