@@ -103,6 +103,6 @@ def chanceToGainMoney():
 if __name__ == '__main__':
 
     # predictMonthlyInputGrowth(initAmount = 9100, monthlySalaryInput = 2400 , monthlygrowthrate = 0.03, lastMonths = 53)
-    predictDailyIncrementalGrowth(initAmount = 1000, biweeklySalary = 800, tradingGrowthRate= 0.001, tradingLossRate= 0.01, gainingPossibility = 0.001, lastdays =30 * 15, dayTradeTimes = 24 * 30)
+    predictDailyIncrementalGrowth(initAmount = 1000, biweeklySalary = 800, tradingGrowthRate= 0.001, tradingLossRate= 0.01, gainingPossibility = 0.001, lastdays =30 * 12 * 15, dayTradeTimes = 24 * 30)
 
     printGraph(xTradeLabel, yTradeLabel, xSavingLabel, ySavingLabel)
